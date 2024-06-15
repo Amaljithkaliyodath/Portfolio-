@@ -53,36 +53,27 @@ body{
     
     
 }
-.content {
-    margin-top: 20px;
-    font-size: 1.2em;
-    
-    
-    
-}
-.manes{
-    margin-top: 5%;
-    border: 3px solid rgb(238, 202, 202);
-    
-   
-}
 
-.highlightable p:hover {
-    background-color: rgb(223, 223, 30);
-}
+@media (max-width: 768px) {
+    .name {
+         font-size: 60px; 
+     }
+ }
+ @media  (min-width:390){
+    .fiol{
+         font-size: 60px; 
+         color: #b31010;
+     }
+ }
 
-.social{
-    margin-top: 3%;
-    margin-left: 5%;
-}
 
 
 
 .playfair-display {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 100;
+    
     font-size: 5em;
   }
   
@@ -98,11 +89,7 @@ body{
     font-size: 5rem;
     font-weight: 900;
 }
-.header img {
-    max-width: 100%;
-    height: auto;
-    margin: 2rem 0;
-}
+
 .header .scroll-down {
     position: absolute;
     bottom: 2rem;
@@ -125,6 +112,54 @@ body{
     color: #000;
     padding: 2rem;
 }
+
+.manes{
+    margin-top: 5%;
+    border: 3px solid rgb(238, 202, 202);
+    
+   
+}
+
+.highlightable p:hover {
+    background-color: rgb(223, 223, 30);
+}
+
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjust based on your needs */
+    margin-top: 2%;
+}
+
+.resume-btn:hover {
+    background-color: #0e76e6;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+   .resume-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 .pro{
@@ -251,32 +286,4 @@ body{
 }
 .contact-email{
     text-decoration: none;
-}
-
-.resume-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-    margin-bottom: 20px; /* Adjust based on your needs */
-    margin-top: 2%;
-}
-
-.resume-btn:hover {
-    background-color: #0e76e6;
-    color: #f1f1f1;
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {
-   .resume-btn {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
 }
