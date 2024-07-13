@@ -156,7 +156,12 @@
 
 
 
-
+<div class="chatbot">
+  <div class="chatbot-header">Chat with me</div>
+  <div class="chatbot-messages"></div>
+  <input type="text" class="chatbot-input" placeholder="Type a message..." />
+  <button class="chatbot-send">Send</button>
+</div>
 
 
 
@@ -166,6 +171,51 @@
         document.getElementById('second-section').scrollIntoView({ behavior: 'smooth' });
     }
 </script>
+<script>
+  document.querySelector('.chatbot-send').addEventListener('click', () => {
+      sendMessage();
+  });
+
+  document.querySelector('.chatbot-input').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+          sendMessage();
+      }
+  });
+
+  function sendMessage() {
+      const inputField = document.querySelector('.chatbot-input');
+      const message = inputField.value.trim();
+      if (message) {
+          addMessage('user', message);
+          inputField.value = '';
+          getBotResponse(message);
+      }
+  }
+
+  function addMessage(sender, message) {
+      const messageContainer = document.querySelector('.chatbot-messages');
+      const messageElement = document.createElement('div');
+      messageElement.classList.add('chatbot-message', sender);
+      messageElement.innerText = message;
+      messageContainer.appendChild(messageElement);
+      messageContainer.scrollTop = messageContainer.scrollHeight;
+  }
+
+  function getBotResponse(message) {
+      let response = 'hello": "Hi there!,';
+
+      if (message.toLowerCase().includes('linkedin')) {
+          response = 'Here is my LinkedIn profile: https://www.linkedin.com/in/amaljith-kaliyodath/';
+      } else if (message.toLowerCase().includes('github')) {
+          response = 'Check out my GitHub: https://github.com/Amaljithkaliyodath';
+      } else {
+          response = 'Sorry, I can only share my resume, LinkedIn, and GitHub links.';
+      }
+
+      addMessage('bot', response);
+  }
+</script>
+
 
   
 <!-- Bootstrap JS and its dependencies -->
