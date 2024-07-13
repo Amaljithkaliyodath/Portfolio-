@@ -1,226 +1,415 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amaljith k</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<!-- Your navbar code will go here --> 
-<div class="container-fluid ">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand logo" href="#">A.k</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse topnav" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link " href="#aboutme">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts">contacts</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      
-</div>
-
-
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
   
 
-<div class="header mt-5">
-    <div class="title col-md-12 col-12  ">CREATIVE DEVELOPER</div>
+
+body{
+    background-color:  #f1ececd6;
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+  }
   
-    <div class="playfair fiol">AMALJITH K</div>
-    <div class="scroll-down" onclick="scrollToSection()">
-        ↓ Scroll down
-    </div>
-</div>
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid red;
+  }
 
-    <div class="container  manes" id="aboutme">
-        <div class="row ">
-            <div class="second-section" id="second-section"> 
-            <div class="col-md-8  justify-content-center  ">
-                <div class="name text-center  ">Amaljith.k</div>
-                <div class="content  ">
-                    <p>Hello, I'm Amaljith k.<br>
-                    I'm a  Python Full Stack Developer,Software Developer and Self-taught UI designer, I bring a strong technical skillset and a passion for building scalable web applications. With a Bachelor's degree in Computer Science from Kannur University and a certification in Python Full Stack Web Development</p>
-                    
-                    <div class="highlightable">
-                    <p> I am well-versed in leveraging the power of Python, Django, HTML, CSS, JavaScript,Wordpress,Bootstrap, Git&GitHub, Figma, Framer, WordPress to deliver high-quality, efficient, and user-friendly solutions,Committed to continuous learning and adept
- at quickly adapting to new technologies.</p>
-                </div>
 
-                
-                <a href="temp/Amaljith k.pdf" class="resume-btn " target="_blank"><i class="fas fa-download"></i> Resume</a>
 
-                </div>
-            </div>
-        </div>
-    </div>
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     
     
-    <div class="container-fluid">
-        <div class="social  topnav">
-        <a class="nav-link " href="https://www.linkedin.com/in/amaljith-kaliyodath/">Likedin</a><a class="nav-link " href="https://github.com/Amaljithkaliyodath">Github</a>
-        </div>
-        
-    </div> 
-</div>
+}
 
-
-
-
-<div class="container text-center  pro" id="project">
-  <h1>Website and Web Application That Combines <span class="font-weight-bold">Creativity and Technology.</span></h1>
+.playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    
+    font-size: 5em;
+  }
   
-  <a href="https://github.com/Amaljithkaliyodath" button class="btn btn-primary mb-5">GITHUB</button></a>
-  <div class="row">
-      <div class="col-md-4 mb-4">
-          <div class="card">
-            <a target="_blank" href="temp/img/Screenshot (11).png">
-              <img src="temp/img/Screenshot (11).png" class="card-img-top" alt="Invest in ocean health">
-            </a>
-              <div class="card-body">
-                  <h5 class="card-title">GMRL Laboratory </h5>
-                  <a href="https://github.com/Amaljithkaliyodath/GMRL" class="btn btn-outline-secondary">GITHUB</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 mb-4">
-          <div class="card">
-            
-            <a target="_blank" href="temp/img/Screenshot 2024-06-14 143515.png">
-              <img src="temp/img/Screenshot 2024-06-14 143515.png" class="card-img-top" alt="Invest in ocean health">
-            </a>
-              <div class="card-body">
-                  <h5 class="card-title">Front-End Design</h5>
-                  <a href="https://github.com/Amaljithkaliyodath/website" class="btn btn-outline-secondary">GITHUB</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 mb-4">
-          <div class="card">
-            <a target="_blank" href="temp/img/Screenshot 2024-06-14 145706.png">
-              <img src="temp/img/Screenshot 2024-06-14 145706.png" class="card-img-top" alt="Invest in ocean health">
-            </a>
-              <div class="card-body">
-                  <h5 class="card-title">Weather Application</h5>
-                  <a href="https://github.com/Amaljithkaliyodath/python/tree/main/api" class="btn btn-outline-secondary">GITHUB</a>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
+.header {
+    /* background-color: #e5e5e5; */
+    color: #000;
+    padding: 5rem 1rem;
+    text-align: center;
+    position: relative;
+}
+.header .title {
+   
+    font-weight: 900;
+    font-size: 7vw;
+    margin-bottom: 20px;
+    word-break: break-word;
+}
 
+.header .scroll-down {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #ff4500;
+}
+.header .scroll-down:hover {
+    color: #ff4500;
 
-
-
-
-
-<div class="container text-center my-5" id="contacts">
-  <h1 class="display-4">Let’s make <span class="highlight">something</span> great!</h1>
-  <div class="mt-4">
-      <a href="mailto:amaljithkaliyodath@gmail.com" class="contact-email">amaljithkaliyodath@gmail.com</a>
-  </div>
-  <div class="mt-5">
-      <a href="https://www.linkedin.com/in/amaljith-kaliyodath/" button class="btn btn-outline-dark">Reach out</button></a>
-  </div>
-  <div class="mt-5">
-      <h2 class="subheading">for <span class="wonderful">wonderful</span> collaborations.</h2>
-  </div>
-</div>
-
-<footer class="footer text-center  lop">
-  <a href="https://github.com/Amaljithkaliyodath">Github</a> |
-  <a href="https://www.linkedin.com/in/amaljith-kaliyodath/">Likedin</a> |
-  <a href="mailto:amaljithkaliyodath@gmail.com">Gmail</a>
-</footer>
-
-
-
-<div class="chatbot">
-  <div class="chatbot-header">Chat with me</div>
-  <div class="chatbot-messages"></div>
-  <input type="text" class="chatbot-input" placeholder="Type a message..." />
-  <button class="chatbot-send">Send</button>
-</div>
-
-
-
-
-<script>
-    function scrollToSection() {
-        document.getElementById('second-section').scrollIntoView({ behavior: 'smooth' });
+}
+.second-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 2rem;
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
     }
-</script>
-<script>
-  document.querySelector('.chatbot-send').addEventListener('click', () => {
-      sendMessage();
-  });
-
-  document.querySelector('.chatbot-input').addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-          sendMessage();
-      }
-  });
-
-  function sendMessage() {
-      const inputField = document.querySelector('.chatbot-input');
-      const message = inputField.value.trim();
-      if (message) {
-          addMessage('user', message);
-          inputField.value = '';
-          getBotResponse(message);
-      }
-  }
-
-  function addMessage(sender, message) {
-      const messageContainer = document.querySelector('.chatbot-messages');
-      const messageElement = document.createElement('div');
-      messageElement.classList.add('chatbot-message', sender);
-      messageElement.innerText = message;
-      messageContainer.appendChild(messageElement);
-      messageContainer.scrollTop = messageContainer.scrollHeight;
-  }
-
-  function getBotResponse(message) {
-      let response = 'hello": "Hi there!,';
-
-      if (message.toLowerCase().includes('linkedin')) {
-          response = 'Here is my LinkedIn profile: https://www.linkedin.com/in/amaljith-kaliyodath/';
-      } else if (message.toLowerCase().includes('github')) {
-          response = 'Check out my GitHub: https://github.com/Amaljithkaliyodath';
-      } else {
-          response = 'Sorry, I can only share my resume, LinkedIn, and GitHub links.';
-      }
-
-      addMessage('bot', response);
-  }
-</script>
+    .playfair {
+        font-size: 1.25rem;
+    }
+    .scroll-down {
+        font-size: 7rem;
+    }
+}
+@media (max-width: 576px) {
+    .title {
+        font-size: 7rem;
+    }
+    .playfair {
+        font-size: 3rem;
+    }
+    .scroll-down {
+        font-size: 0.875rem;
+    }
+}
 
 
-  
-<!-- Bootstrap JS and its dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+.content{
+    font-size: large;
+}
+
+
+ @media (max-width: 768px) {
+    .name {
+        font-size: 7rem;
+    }
+    .content {
+        font-size: 5vw;
+    }
+    .resume-btn {
+        font-size: 3.5vw;
+    }
+}
+@media (max-width: 576px) {
+    .name {
+        font-size: 49px;
+    }
+    .content {
+        font-size: 20px;
+    }
+    .resume-btn {
+        font-size: 4.5vw;
+    }
+}
+
+
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+.social .nav-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5vw;
+}
+@media (max-width: 768px) {
+    .social .nav-link {
+        font-size: 3.5vw;
+    }
+}
+@media (max-width: 576px) {
+    .social .nav-link {
+        font-size: 4.5vw;
+    }
+}
+
+
+
+
+.manes{
+    
+    border: 3px solid rgb(238, 202, 202);
+    
+   
+}
+@media (max-width:768px){
+    .manes{
+       margin-top: auto;
+    }
+    
+ }
+
+
+
+.highlightable p:hover {
+    background-color: rgb(223, 223, 30);
+}
+
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjust based on your needs */
+    margin-top: 2%;
+}
+
+.resume-btn:hover {
+    background-color: #0e76e6;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+   .resume-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.pro{
+    margin-top: 8%;
+}
+
+
+.card {
+    border: none;
+    border-radius: 0.1rem;
+    border: 3px solid rgb(237, 224, 224);
+    background-color: #e2e5e7;
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-outline-secondary {
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #e2e5e7;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #bac3cc;
+     color: #000;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+
+
+
+.con{
+    margin-top: 7%;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.highlight {
+    font-style: italic;
+}
+
+.contact-email {
+    font-size: 2rem;
+    color: #ab3f09;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-outline-dark {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.subheading {
+    font-size: 2rem;
+}
+
+.wonderful {
+    font-style: italic;
+}
+
+.footer a {
+    margin: 0 10px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .contact-email {
+        font-size: 1.3rem;
+    }
+
+    .subheading {
+        font-size: 1.5rem;
+    }
+
+   
+}
+
+.lop{
+    margin-bottom: 5%;
+}
+.contact-email{
+    text-decoration: none;
+}
+
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(21, 13, 13, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-header {
+    background: #5e6b79;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 200px;
+}
+
+.chatbot-input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.chatbot-send {
+    background: #5e6b79;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.chatbot-message {
+    margin: 5px 0;
+}
+
+.chatbot-message.user {
+    text-align: right;
+}
+
+.chatbot-message.bot {
+    text-align: left;
+    color: #01060b;
+}
