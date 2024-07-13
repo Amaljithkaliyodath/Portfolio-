@@ -358,3 +358,58 @@ body{
 .contact-email{
     text-decoration: none;
 }
+
+
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-width: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(21, 13, 13, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-header {
+    background: #5e6b79;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 200px;
+}
+
+.chatbot-input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.chatbot-send {
+    background: #5e6b79;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.chatbot-message {
+    margin: 5px 0;
+}
+
+.chatbot-message.user {
+    text-align: right;
+}
+
+.chatbot-message.bot {
+    text-align: left;
+    color: #01060b;
+}
